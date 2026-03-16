@@ -1,0 +1,5 @@
+CREATE VIEW march_madness_analysis AS
+SELECT
+team_name, season, adjusted_temo, adjusted_offensive_efficiency, adjusted_defensive_efficiency, fg2pct, fg3pct, def2ptfg, def3ptfg, seed, tournament_winner
+
+FROM [FINAL_Valid_MMData-Updated];
