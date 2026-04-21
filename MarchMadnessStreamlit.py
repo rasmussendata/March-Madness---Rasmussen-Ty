@@ -23,7 +23,7 @@ st.markdown(
 
 @st.cache_data
 def load_data():
-    return pd.read_pickle("FINAL_Valid_MMData_v2.pkl copy")
+    return pd.read_pickle("FINAL_Valid_MMData_v2.pkl")
 
 df = load_data()
 
