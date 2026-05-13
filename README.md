@@ -24,29 +24,38 @@ tournament_winner
 The response variable indicating if a team won the March Madness championship.
 Binary (1/0)
 adjusted_offensive_efficiency
+
 A team’s scoring output per 100 possessions, adjusted for opponent defense
 Numeric
+
 adjusted_defensive_efficiency
 A team’s points allowed per 100 possessions, adjusted for opponent offense.
 Numeric
+
 seed
 The team’s assigned rank in their tournament region.
 Numeric
+
 top_12_in_ap_top_25_during_week_6?
 Indicates if a team was established in the top 12 of the AP poll by week 6.
 Binary
+
 efgpct_off
 Offensive field goal efficiency percentage (one of Dean Oliver’s “Four Factors”)
 Numeric
+
 orpct_off
 Offensive rebound percentage (one of Dean Oliver’s “Four Factors”)
 Numeric
+
 topct_off
 Turnover percentage on offense (one of Dean Oliver’s “Four Factors”)
 Numeric
+
 ftrate_off
 How often a team gets to the free-throw line relative to their field goal attempts (one of Dean Oliver’s “Four Factors”)
 Numeric
+
 fg3pct
 A team’s actual three-point shooting percentage
 Numeric
